@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .flex{
+      display: flex;
+
+  }
+  .main{
+    flex-grow: 1;
+    margin: 100px 100px;
+    border:5px solid black;
+    display:grid;
+    grid-template-columns:repeat(3,1fr) 330px;
+    grid-template-rows:100px 150px 250px 100px;
+    grid-gap:5px;
+  }
+  .div1{
+    background-color:rgb(101, 198, 236);
+    grid-column:1/-1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div2{
+     background-color:rgb(219, 89, 219);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div3{
+     background-color:rgb(223, 176, 90);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div4{
+     background-color:rgb(109, 233, 109);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div5{
+     background-color:rgb(247, 247, 122);
+    grid-row:2/4;
+    grid-column:4/5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div6{
+     background-color:rgb(224, 125, 125);
+     grid-column:1/4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .div7{
+     background-color:rgb(119, 119, 228);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div8{
+    background-color:rgb(101, 198, 236);
+    grid-column:1/-1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
